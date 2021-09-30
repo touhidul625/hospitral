@@ -1,0 +1,586 @@
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing:border-box;
+}
+ul,ol{
+    list-style:none;
+
+}
+a,
+span{
+    text-decoration:none;
+    display:inline-block;
+}
+.img{
+    vertical-align:middle;
+}
+.container{
+    width:970px;
+    margin:0 auto;
+}
+.clr{
+    clear:both;
+
+}
+.body{
+    font-family:'Open Sans', sans-serif;
+
+}
+:root{
+    --hover:#f18d26;
+}
+/* ====================================================
+            common css end
+=======================================================*/
+
+/* =====================================================
+            Header part start
+=======================================================*/
+#header_part{
+    padding:13px 0 19px;
+    
+}
+.header_cont{
+    display:flex; 
+}
+
+.logo{
+  width:83px;
+}
+.header_head{
+    width:635px;
+}
+.header_number{
+    width:252px;
+}
+.header_head h2{
+    color:#3ca2a2;
+    font-size:26px;
+    font-weight:700;
+   
+    line-height:88px;
+    padding-left:10px;
+}
+.header_number p{
+    color:#b76262;
+    font-size:30px;
+    font-weight:700;
+   
+    line-height:88px;
+    text-align:right;
+}
+/* ====================================================
+            Header part end
+=======================================================*/
+
+/* ====================================================
+            Menu part start
+=======================================================*/
+
+#menu_part{
+   
+    background: linear-gradient( to top, #ae1010 0%, #cf0511 100% );
+}
+.menu_cont{
+    display:flex;
+}
+.main_menu{
+    width:840px;
+    
+}
+.menu_icon{
+    width:100px;
+    
+}
+.main_menu ul{
+    display:flex;
+
+}
+.main_menu ul li a{
+    color:#ffffff;
+    font-size:16px;
+    font-weight:600;
+    line-height:50px;
+    padding:0 15px;
+    transition:all linear.3s 
+}
+.main_menu ul li a:hover{
+    background:var(--hover); 
+}
+.menu_icon{
+    text-align:right;
+    line-height:50px;
+}
+.menu_icon a{
+    width:26px;
+    height:26px;
+    background:#ffff;
+    border-radius:50%;
+    text-align:center;
+    line-height:26px;
+    color:#be0b10;
+    transition:all linear.3s;
+
+
+}
+.menu_icon a:hover{
+    background:var(--hover);
+    color:#fff;
+}
+/* ====================================================
+            Menu part end
+========================================================*/
+
+/* =====================================================
+            Banner part start
+========================================================*/
+#banner_part{
+    padding:75px 0;
+}
+.banner_cont{
+    display:flex;
+    position:relative;
+}
+.banner_text{
+    width:520px;
+}
+.banner_img img{
+    width:100%;
+    max-width:100%; 
+}
+.banner_text h1{
+    color:#215a6d;
+    font-size:36px;
+    font-weight:400;
+
+}
+.banner_text span{
+    display:block;
+    font-size:48px;
+    font-weight:600;
+    font-style:italic;
+}
+.banner_text p {
+	color: #215a6d;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	padding-right: 255px;
+}
+.banner_text a{
+    padding:0 25px;
+    background:#92c7a3;
+    color:#fff;
+    font-style:18px;
+    font-weight:600;
+    border-radius:22px;
+    margin-top:40px;
+    line-height:42px;
+    transition:all linear.3s;
+}
+.banner_text a:hover{
+     background: var(--hover);
+}
+.banner_img{
+    position:absolute;
+    right:0;
+    bottom:-75px;
+    width:560px;
+}
+
+
+
+
+
+/* =====================================================
+            Banner part end
+=======================================================*/
+
+
+/* =====================================================
+            Service part start
+========================================================*/
+#service_part{
+    padding:75px 0;
+}
+.ser_cont{
+    display:flex;
+    text-align:center;
+
+}
+.service_col {
+	width: 34%;
+	margin-right: 77px;
+}
+.service_col:last-child{
+    margin-right:0;
+}
+.service_col h3{
+    color:#3ca2a2;
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:20px;
+    
+}
+.service_col p{
+    margin-top:10px;
+    color:#215a6d;
+    font-size:13px;
+    font-weight:400;
+}
+.service_col a{
+    color:#92c7a3;
+    font-size:14px;
+    font-weight:400;
+    padding-top:25px;
+}
+.service_col a i{
+    color:#be0b10;
+    padding-right:5px;
+
+}
+
+/* ======================================================
+            Service part end
+=========================================================*/
+/* ======================================================
+            Notice part start
+=========================================================*/
+#notice_part{
+    background:#dfece6;
+    padding:30px 0;    
+}
+.not_cont{
+    display:flex;
+}
+.not_col{
+    width:45%;
+    margin-right:30px;
+
+
+}
+
+.not_col :last-child{
+margin:0;
+}
+.not_head h2{
+    position:relative;
+    color:#215a6d;
+    font-size:28.51px;
+    font-weight:600;
+    
+
+}
+
+.not_head h2:after{
+    position:absolute;
+    content:'';
+    left:0;
+    bottom:0;
+    width:100%;
+    height:1px;
+    background:#fff;
+
+}
+.not_head h2:before{
+    position:absolute;
+    content:'';
+    left:0;
+    bottom:-1px;
+    width:54px;
+    height:2px;
+    background:red;
+    z-index:1;
+}
+.not_inner{
+    padding-top:35px;
+}
+.not_inner ul li{
+    background:#fff;
+    line-height:42px;
+    border-bottom:1px solid#55b9c8;
+    padding-left:15px;
+    color:#3ca2a2;
+    font-size:16px;
+    font-weight:600;
+
+}
+.not_inner ul li:last-child{
+    border-bottom:0;
+}
+.not_inner ul li i{
+    padding:0 18px;
+    color:#fff;
+    background:#bf0a11;
+    line-height:42px;
+    font-size:20px;
+    float:right;
+
+}
+.not_inner a{
+    color:#cf0511;
+    padding-top:20px;
+}
+.not_inner a i{
+    padding-right:5px;
+}
+.not_img{
+    width:100%;
+    max-width:100%;
+}
+
+
+
+
+
+/* ======================================================
+            Notice part end
+=========================================================*/
+
+
+/* =======================================================
+            gallerey part start
+==========================================================*/
+.gal_cont{
+    display:flex;
+}
+#galary_part .not_head h2:after{
+    background:#eaeaea;
+}
+.gal_event:first-child{
+    padding-bottom:60px;
+    position:relative;
+}
+.gal_event:first-child:after{
+    position:absolute;
+    content:'';
+    left:0;
+    bottom:28px;
+    width:100%;
+    height:1px; 
+    background:red;
+}
+.gal_event a {
+    color:#215a6d;
+
+}
+.gal_event a i{
+    color:#cf0511;
+}
+.gal_event h3{
+    color:#3ca2a2;
+    font-size:18px;
+    font-weight:600;
+
+
+}
+.gal_event p{
+    color:#215a6d;
+    font-size:13px;
+    font-weight:400;
+
+}
+
+   
+
+
+.gal_media ul{
+    padding-top:35px;
+    
+}
+
+.gal_media ul li{
+    color:#215a6d;
+    font-size:13px;
+    font-weight:400;
+    padding-bottom:10px;
+
+}
+.gal_media a{
+    color: #215a6d;
+    padding-top:35px;
+}
+.gal_media a i{
+    color:#cf0511;
+}
+.gal_inner ul{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:35px;
+   
+}
+.gal_inner{
+    margin-top:35px;
+}
+.gal_inner ul li {
+	width: 44.89%;
+	margin-right: 30px;
+    margin-bottom:10px;
+}
+.gal_inner ul li img{
+    width:100%;
+    max-width:100%;
+    border:4px solid#dfece6;
+    
+}
+.gal_inner ul li:nth-child(2),
+.gal_inner ul li:nth-child(4){
+    margin-right:0;
+}
+.gal_inner a {
+	color: #215a6d;
+	/* padding-top: ; */
+}
+.gal_inner i{
+    color:#c70811;
+    
+}
+
+
+
+/* ========================================================
+            gallerey part end
+===========================================================*/
+
+/* =========================================================
+            doctor part star
+=============================================================*/
+#doctor_part{
+    padding:30px 0;
+}
+
+.doc_head h2{
+    position:relative;
+
+}
+.doc_head h2:after{
+    position:absolute;
+    content:'';
+    left:0;
+    bottom:0;
+    width:100%;
+    height:1px;
+    background:#eaeaea;
+}
+.doc_head h2:before{
+    position:absolute;
+    content:'';
+    left:0;
+    bottom:-1px;
+    width:50px;
+    height:2px;
+    background:#ae1010;
+    z-index:1px;
+}
+.doc_head h2{
+    color:#215a6d;
+    font-weight:600;
+    font-size:28.51px;
+}
+.doc_document{
+    display:flex;
+    padding-top:30px;
+}
+.doc_col {
+	width: 28%;
+	margin-right: 63px;
+}
+.doc_img{
+    width:100%;
+    max-width:100%;
+}
+.doc_text h2{
+    font-size:18px;
+    color:#3ca2a2;
+    font-weight:600;
+
+
+}
+.doc_text{
+    padding-top:10px;
+}
+.doc_text h3{
+    color:#878787;
+    font-size:12px;
+    font-weight:400;
+}
+.doc_text P{
+    color:#cf0511;
+    font-size:12px;
+    font-weight:400;
+}
+.doc_col:last-child{
+    margin-right:0;
+}
+/* ==========================================================
+            doctor part end
+=============================================================*/
+/* ==========================================================
+            footer part start
+==============================================================*/
+#footer_part{
+    padding-top:30px;
+    background:#022222;
+}
+.header_part{
+    display:flex;
+}
+.logo{
+    width:100px;
+}
+.footer_text{
+    width:870px;
+}
+.footer_text h2{
+    color:#2cadf8;
+    font-size:25.76px;
+    font-weight:600;
+    line-height:85px;
+
+}
+
+.menu_text h3{
+    color:#3ff51b;
+    font-size:18px;
+    font-weight:600;
+    padding-top:45px;
+    
+
+}
+.menu_list ul li{
+    color:#c6ded9;
+    font-size:12px;
+    font-weight:400;
+    padding-top:10px;
+}
+.menu_list ul li i{
+    color:#980f16;
+    margin-right:10px;
+}
+.menu{
+    display:flex;
+}
+.menu_part {
+	width: 25%;
+	margin-right: 82px;
+}
+.menu_part:last-child{
+    margin-right:0;
+}
+.copyright{
+    padding:15px 0;
+    background:#cf0511;
+    text-align:center;
+    margin-top:15px;
+}
+.copyright p{
+    color:#c6ded9;
+    font-size:14px;
+    font-weight:400;
+
+}
+/* ============================================================
+            footer part end
+===============================================================*/
